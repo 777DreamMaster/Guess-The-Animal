@@ -47,7 +47,7 @@ public class StorageService {
     public static void loadFromFile(Tree tree) {
         try {
             File file = getFile();
-            System.out.println(file.getAbsolutePath());
+//            System.out.println(file.getAbsolutePath());
             if (file.exists()) tree.setRoot(objectMapper.readValue(file, Node.class));
         } catch (IOException e) {
             e.printStackTrace();
