@@ -1,0 +1,33 @@
+{
+  "value" : "It is a mammal",
+  "left" : {
+    "value" : "a shark"
+  },
+  "right" : {
+    "value" : "It is living in the forest",
+    "left" : {
+      "value" : "It can climb tree",
+      "left" : {
+        "value" : "a dog"
+      },
+      "right" : {
+        "value" : "a cat"
+      }
+    },
+    "right" : {
+      "value" : "It is a shy animal",
+      "left" : {
+        "value" : "a wolf"
+      },
+      "right" : {
+        "value" : "It has a long bushy tail",
+        "left" : {
+          "value" : "a hare"
+        },
+        "right" : {
+          "value" : "a fox"
+        }
+      }
+    }
+  }
+}
