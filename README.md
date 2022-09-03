@@ -1,7 +1,7 @@
 # Guess-The-Animal
 
 ## Details
-Player thinks of an animal and computer tries to guess what it is based on the answers. During the game, the computer will extend its knowledge base by learning new facts about animals and using this information in the next game. All information keeped in the process will be saveed in one of the following formats: JSON, XML, YAML.
+Player thinks of an animal and computer tries to guess what it is based on the answers. During the game, the computer will extend its knowledge base by learning new facts about animals and using this information in the next game. All information keeped in the process will be saveed in one of the following formats: JSON, XML, YAML (To choose the type you can add "-type json" as an argument (XML is standart)).
 Program alowed not only play the guessing game but also:
 - List of all animals
 - Search for an animal
